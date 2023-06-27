@@ -17,7 +17,6 @@ class Home extends StatelessWidget {
                     Colors.grey,
                     //Colors.orange.shade400,
                   ]
-                  tileMode: 
               ),
             ),
             child: Column(
@@ -25,7 +24,7 @@ class Home extends StatelessWidget {
               children:  [
                 const CircleAvatar(
                   backgroundImage: AssetImage('imagens/photo.png',),
-                  radius: 60,
+                  radius: 70,
                 ),
                 const Text('Abel Kamulingui',
                   style:  TextStyle(
