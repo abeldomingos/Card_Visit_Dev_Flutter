@@ -11,12 +11,12 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children:  [
-               CircleAvatar(
+               const CircleAvatar(
                 backgroundImage: AssetImage('imagens/photo.png',),
                 radius: 60,
               ),
-              Text('Abel Kamulingui',
-                style: TextStyle(
+              const Text('Abel Kamulingui',
+                style:  TextStyle(
                   fontSize: 25,
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -24,24 +24,24 @@ class Home extends StatelessWidget {
                 ),
               ),
 
-              Text('DESENVOLVIDOR FLUTTER',
+              const Text('DESENVOLVIDOR FLUTTER',
               style: TextStyle(
                 fontSize: 12,
                 color: Colors.white,
               ),
               ),
 
-              SizedBox(
+              const SizedBox(
                 height: 18,
                 width: 250,
-                child: Divider(
+                child:  Divider(
                   color: Colors.white30,
                 ),
               ),
 
               //PHONE
               Container(
-                margin: EdgeInsets.symmetric(
+                margin: const EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 25,
                 ),
@@ -49,15 +49,15 @@ class Home extends StatelessWidget {
                   color: Colors.grey.shade700,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                padding: EdgeInsets.all(12),
+                padding: const EdgeInsets.all(12),
                 child: Row(
-                  children: [
-                    Icon(Icons.phone,
+                  children: const [
+                     Icon(Icons.phone,
                       size: 20,
                       color: Colors.white,
                     ),
-                    SizedBox(width: 15,),
-                    Text('+244 927 038 823',
+                     SizedBox(width: 15,),
+                     Text('+244 927 038 823',
                       style: TextStyle(
                         color: Colors.white,
                       ),
@@ -68,7 +68,7 @@ class Home extends StatelessWidget {
 
               //EMAIL
               Container(
-                margin: EdgeInsets.symmetric(
+                margin: const EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 25,
                 ),
@@ -76,16 +76,16 @@ class Home extends StatelessWidget {
                   color: Colors.grey.shade700,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                padding: EdgeInsets.all(12),
+                padding: const EdgeInsets.all(12),
                 child: Row(
-                  children: [
+                  children: const [
                     Icon(Icons.email,
                       size: 20,
                       color: Colors.white,
                     ),
                     SizedBox(width: 15,),
                     Text('changebleassing@gmail.com',
-                      style: TextStyle(
+                      style:  TextStyle(
                         color: Colors.white,
                       ),
                     ),
