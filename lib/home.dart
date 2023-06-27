@@ -12,9 +12,10 @@ class Home extends StatelessWidget {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
                   colors: [
-                    Colors.blue,
-                    Colors.grey,
+                    Colors.blue.shade900,
+                    Colors. orange.shade600,
                     //Colors.orange.shade400,
                   ]
               ),
@@ -57,7 +58,7 @@ class Home extends StatelessWidget {
                     horizontal: 25,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.grey.shade700,
+                    color: Colors.orange.shade600,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   padding: const EdgeInsets.all(12),
@@ -84,7 +85,7 @@ class Home extends StatelessWidget {
                     horizontal: 25,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.grey.shade700,
+                    color: Colors.orange.shade600,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   padding: const EdgeInsets.all(12),
