@@ -9,6 +9,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.blue.shade600,
       body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children:  [
                CircleAvatar(
                 backgroundImage: AssetImage('imagens/photo.png',),
@@ -30,18 +31,28 @@ class Home extends StatelessWidget {
               ),
               ),
 
+              SizedBox(
+                height: 18,
+                width: 250,
+                child: Divider(
+                  color: Colors.white30,
+                ),
+              ),
 
               //PHONE
               Container(
-                color: Colors.grey.shade700,
                 margin: EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 25,
                 ),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade700,
+                  borderRadius: BorderRadius.circular(10),
+                ),
                 padding: EdgeInsets.all(12),
                 child: Row(
                   children: [
-                    Icon(Icons.vpn_key,
+                    Icon(Icons.phone,
                       size: 20,
                       color: Colors.white,
                     ),
@@ -57,10 +68,13 @@ class Home extends StatelessWidget {
 
               //EMAIL
               Container(
-                color: Colors.grey.shade700,
                 margin: EdgeInsets.symmetric(
                   vertical: 10,
                   horizontal: 25,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade700,
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 padding: EdgeInsets.all(12),
                 child: Row(
