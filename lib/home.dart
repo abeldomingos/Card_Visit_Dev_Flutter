@@ -50,7 +50,6 @@ class Home extends StatelessWidget {
                     color: Colors.white30,
                   ),
                 ),
-
                 //PHONE
                 Container(
                   margin: const EdgeInsets.symmetric(
