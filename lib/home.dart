@@ -57,9 +57,19 @@ class Home extends StatelessWidget {
                     horizontal: 25,
                   ),
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
                     color: Colors.orange.shade600,
-                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Color(0x3F000000),
+                        blurRadius: 4,
+                        offset: Offset(0, 4),
+                        spreadRadius: 0,
+                      )
+                    ]
+                      // borderRadius: BorderRadius.circular(10),
                   ),
+
                   padding: const EdgeInsets.all(12),
                   child: Row(
                     children: const [
@@ -84,8 +94,17 @@ class Home extends StatelessWidget {
                     horizontal: 25,
                   ),
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
                     color: Colors.orange.shade600,
-                    borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0x3F000000),
+                          blurRadius: 4,
+                          offset: Offset(0, 4),
+                          spreadRadius: 0,
+                        )
+                      ]
+                   // borderRadius: BorderRadius.circular(10),
                   ),
                   padding: const EdgeInsets.all(12),
                   child: Row(
